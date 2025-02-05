@@ -25,7 +25,7 @@ const ColorPicker: React.FC<{ selectedNodeId: string | null }> = ({
     <div>
       <input
         type="color"
-        value={selectedNode ? selectedNode.data.color : "#000000"} // Default to black if no node is selected
+        value={selectedNode ? selectedNode.data.color : "#000000"}
         onChange={(e) => handleColorChange(e.target.value)}
       />
     </div>

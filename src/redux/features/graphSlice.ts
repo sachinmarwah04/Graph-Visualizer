@@ -60,7 +60,7 @@ const graphSlice = createSlice({
         }
         state.undoRedoState.push({
           graph: {
-            nodes: JSON.parse(JSON.stringify(state.nodes)), // Deep copy for undo state
+            nodes: JSON.parse(JSON.stringify(state.nodes)),
             edges: state.edges,
             undoRedoState: [],
             undoRedoIndex: 0,
@@ -86,7 +86,7 @@ const graphSlice = createSlice({
         }
         state.undoRedoState.push({
           graph: {
-            nodes: JSON.parse(JSON.stringify(state.nodes)), // Deep copy for undo state
+            nodes: JSON.parse(JSON.stringify(state.nodes)),
             edges: state.edges,
             undoRedoState: [],
             undoRedoIndex: 0,

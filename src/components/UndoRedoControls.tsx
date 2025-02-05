@@ -9,7 +9,6 @@ const UndoRedoControls: React.FC<{ selectedNodeId: string | null }> = ({
 
   const handleUndo = () => {
     if (selectedNodeId) {
-      // Dispatch undo to revert the state
       dispatch(undo());
     }
   };
