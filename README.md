@@ -25,7 +25,7 @@ Next, install the required dependencies by running: npm install
    To create a production build of the application, run: npm run build
 
 Available Scripts
-npm start: Starts the development server at http://localhost:3000.
+npm start: Starts the development server at http://localhost:5174.
 npm run build: Builds the app for production, optimized for deployment.
 npm test: Runs the test suite, if available, to ensure that everything is working correctly.
 npm run lint: Runs the linter to check for code quality and style issues.
